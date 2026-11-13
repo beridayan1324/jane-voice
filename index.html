@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jane voice</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --link: #1a5fd0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #16171a; --fg: #ececec; --muted: #a0a4ab; --link: #8ab4f8; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 28px; margin: 0 0 12px; }
+  p { margin: 0 0 14px; }
+  .muted { color: var(--muted); }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Jane voice</h1>
+  <p>Jane voice is a small personal tool, used by its owner only. It is not a public service and has no other users.</p>
+  <p>It lets the owner speak a request to their own smart speaker ("add a task: Jane, ..."). The tool reads that task
+     from the owner's own Google Tasks, hands it to the owner's personal assistant running on their home server,
+     and marks the task done.</p>
+  <p><a href="privacy.html">Privacy policy</a></p>
+  <p class="muted">Owner: <a href="https://github.com/beridayan1324">github.com/beridayan1324</a></p>
+</main>
+</body>
+</html>
